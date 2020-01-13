@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.test.AutoIT">
+      <class name="com.selenium.test.TestSelenium">
         <methods>
-          <include name="testUntitledTestCase"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="initiate"/>
+          <include name="initiate"/>
+          <include name="validateMessage"/>
+          <include name="clickSearch"/>
+          <include name="enterLoginDetails"/>
+          <include name="closeWindow"/>
         </methods>
-      </class> <!-- com.selenium.test.AutoIT -->
+      </class> <!-- com.selenium.test.TestSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
