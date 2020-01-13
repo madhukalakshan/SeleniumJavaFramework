@@ -1,0 +1,6 @@
+WinWait("[CLASS:#32770]","",10)
+ControlFocus("Open","","Edit1")
+Sleep(500)
+ControlSetText("Open","","Edit1", $CmdLine[1])
+Sleep(500)
+ControlClick("Open","","Button1")
